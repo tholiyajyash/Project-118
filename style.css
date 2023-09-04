@@ -1,0 +1,32 @@
+body
+{
+background-color: #e8e40c;
+}
+
+h1
+{
+    color:blue;
+    background-color:cornsilk;
+}
+
+#show_sketch
+{
+    float:right;
+    margin-top: 2.5px;
+}
+
+canvas 
+{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: trees;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count : infinite;
+}
+
+@keyframes trees
+{
+from {box-shadow: 1px 1px 100px #3407fa;}
+to{box-shadow: 1px 1px 100px #d41e2a;}
+}
